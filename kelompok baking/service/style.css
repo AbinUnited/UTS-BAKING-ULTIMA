@@ -121,6 +121,69 @@ a.main, .header ul li a:hover {
 }
 
 
+/* tabel harga */
+
+.beth {
+    display: flex;
+    align-items: center;
+}
+
+.tabler {
+    max-width: 900px;
+    background-color: white;
+    padding: 15px;
+    overflow: auto;
+    margin: auto;
+    border-radius: 4px;
+}
+
+table {
+width: 100px;
+font-size: 14px;
+color: #444;
+white-space: nowrap;
+border-collapse: collapse;
+}
+
+table>thead {
+    
+    background-color: #6c55e1;
+    color: whitesmoke;
+}
+
+table>thead th {
+    padding: 15px 30px;
+}
+
+table>tbody{
+    text-align: center;
+}
+
+table>tbody td {
+    padding: 15px 30px;
+    color: #000;
+}
+
+table th, table td {
+    border: 1px solid black;
+}
+
+table>tbody>tr {
+    background-color: whitesmoke;
+    transition: .3s ease-in-out;
+}
+
+table>tbody>tr:nth-child(even){
+    background-color: rgba(110, 87, 224, 0.233);
+}
+
+/* tabel haraga */
+
+.content:hover {
+    border-radius: 10px;
+    transform: scale(1.02);
+    transition: 0.4s;
+}
 
 
 
